@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml>
+<graph id="G" edgedefault="directed">
+<key id="nt" for="node" attr.name="nodeType" attr.type="string"/>
+<key id="lt" for="edge" attr.name="linkType" attr.type="string"/>
+<key id="lw" for="edge" attr.name="linkWeight" attr.type="integer"/>
+<node id="test">
+<data key="nt" sourceFileName="/home/smi/Desktop/egdn valjda/eGSN2/ssqsa-1/eGDNGenerator/../TDDTestCode/ecst/test/M.java_eCST_V1570110225000.xml">PACKAGE</data>
+</node>
+<node id="test.M.g@int#int">
+<data key="nt" sourceFileName="/home/smi/Desktop/egdn valjda/eGSN2/ssqsa-1/eGDNGenerator/../TDDTestCode/ecst/test/M.java_eCST_V1570110225000.xml">FUNCTION</data>
+<!--number of arguments = 1 -->
+</node>
+<node id="test.M.f@int#int">
+<data key="nt" sourceFileName="/home/smi/Desktop/egdn valjda/eGSN2/ssqsa-1/eGDNGenerator/../TDDTestCode/ecst/test/M.java_eCST_V1570110225000.xml">FUNCTION</data>
+<!--number of arguments = 1 -->
+</node>
+<node id="test.M.calc1@int#int">
+<data key="nt" sourceFileName="/home/smi/Desktop/egdn valjda/eGSN2/ssqsa-1/eGDNGenerator/../TDDTestCode/ecst/test/M.java_eCST_V1570110225000.xml">FUNCTION</data>
+<!--number of arguments = 1 -->
+</node>
+<node id="test.M">
+<data key="nt" sourceFileName="/home/smi/Desktop/egdn valjda/eGSN2/ssqsa-1/eGDNGenerator/../TDDTestCode/ecst/test/M.java_eCST_V1570110225000.xml">UNIT</data>
+</node>
+<node id="test.M.h@int#int">
+<data key="nt" sourceFileName="/home/smi/Desktop/egdn valjda/eGSN2/ssqsa-1/eGDNGenerator/../TDDTestCode/ecst/test/M.java_eCST_V1570110225000.xml">FUNCTION</data>
+<!--number of arguments = 1 -->
+</node>
+<edge id="e0" source="test.M.g@int#int" target="test.M.h@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e1" source="test.M.f@int#int" target="test.M.g@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e2" source="test.M.h@int#int" target="test.M.h@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e3" source="test.M" target="test.M.h@int#int">
+<data key="lt">CONTAINS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e4" source="test" target="test.M">
+<data key="lt">CONTAINS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e5" source="test.M.f@int#int" target="test.M.calc1@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e6" source="test.M.h@int#int" target="test.M.f@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e7" source="test.M.g@int#int" target="test.M.g@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e8" source="test.M.f@int#int" target="test.M.f@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e9" source="test.M" target="test.M.calc1@int#int">
+<data key="lt">CONTAINS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e10" source="test.M" target="test.M.g@int#int">
+<data key="lt">CONTAINS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e11" source="test.M.calc1@int#int" target="test.M.f@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e12" source="test.M" target="test.M.f@int#int">
+<data key="lt">CONTAINS</data>
+<data key="lw">1</data>
+</edge>
+</graph>
+</graphml>

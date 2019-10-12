@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<childElement>
+    <token column="-1" index="-1" line="0" text="COMPILATION_UNIT" type="48"/>
+    <childElement>
+        <token column="-1" index="-1" line="0" text="BLOCK_SCOPE" type="35"/>
+        <childElement>
+            <token column="-1" index="-1" line="0" text="SEPARATOR" type="63"/>
+            <childElement>
+                <token column="0" index="3" line="3" text="(" type="153"/>
+            </childElement>
+        </childElement>
+        <childElement>
+            <token column="-1" index="-1" line="0" text="KEYWORD" type="59"/>
+            <childElement>
+                <token column="1" index="4" line="3" text="begin" type="68"/>
+            </childElement>
+        </childElement>
+        <childElement>
+            <token column="-1" index="-1" line="0" text="FUNCTION_CALL" type="40"/>
+            <childElement>
+                <token column="-1" index="-1" line="0" text="SEPARATOR" type="63"/>
+                <childElement>
+                    <token column="2" index="8" line="4" text="(" type="153"/>
+                </childElement>
+            </childElement>
+            <childElement>
+                <token column="-1" index="-1" line="0" text="NAME" type="44"/>
+                <childElement>
+                    <token column="3" index="9" line="4" text="display" type="75"/>
+                </childElement>
+            </childElement>
+            <childElement>
+                <token column="-1" index="-1" line="0" text="ARGUMENT_LIST" type="41"/>
+                <childElement>
+                    <token column="-1" index="-1" line="0" text="ARGUMENT" type="42"/>
+                    <childElement>
+                        <token column="-1" index="-1" line="0" text="CONST" type="65"/>
+                        <childElement>
+                            <token column="11" index="11" line="4" text="&quot;Hello, World!&quot;" type="76"/>
+                        </childElement>
+                    </childElement>
+                </childElement>
+            </childElement>
+            <childElement>
+                <token column="-1" index="-1" line="0" text="SEPARATOR" type="63"/>
+                <childElement>
+                    <token column="26" index="12" line="4" text=")" type="154"/>
+                </childElement>
+            </childElement>
+        </childElement>
+        <childElement>
+            <token column="-1" index="-1" line="0" text="FUNCTION_CALL" type="40"/>
+            <childElement>
+                <token column="-1" index="-1" line="0" text="SEPARATOR" type="63"/>
+                <childElement>
+                    <token column="2" index="16" line="5" text="(" type="153"/>
+                </childElement>
+            </childElement>
+            <childElement>
+                <token column="-1" index="-1" line="0" text="NAME" type="44"/>
+                <childElement>
+                    <token column="3" index="17" line="5" text="newline" type="75"/>
+                </childElement>
+            </childElement>
+            <childElement>
+                <token column="-1" index="-1" line="0" text="ARGUMENT_LIST" type="41"/>
+            </childElement>
+            <childElement>
+                <token column="-1" index="-1" line="0" text="SEPARATOR" type="63"/>
+                <childElement>
+                    <token column="10" index="18" line="5" text=")" type="154"/>
+                </childElement>
+            </childElement>
+        </childElement>
+        <childElement>
+            <token column="-1" index="-1" line="0" text="SEPARATOR" type="63"/>
+            <childElement>
+                <token column="11" index="19" line="5" text=")" type="154"/>
+            </childElement>
+        </childElement>
+    </childElement>
+</childElement>

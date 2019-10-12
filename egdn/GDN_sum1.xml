@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml>
+<graph id="G" edgedefault="directed">
+<key id="nt" for="node" attr.name="nodeType" attr.type="string"/>
+<key id="lt" for="edge" attr.name="linkType" attr.type="string"/>
+<key id="lw" for="edge" attr.name="linkWeight" attr.type="integer"/>
+<node id="test.Sum1.sum@int@int#int">
+<data key="nt" sourceFileName="/home/smi/Desktop/egdn valjda/eGSN2/ssqsa-1/eGDNGenerator/../TDDTestCode/ecst/test/Sum1.java_eCST_V1570845703000.xml">FUNCTION</data>
+<!--number of arguments = 2 -->
+</node>
+<node id="test">
+<data key="nt" sourceFileName="/home/smi/Desktop/egdn valjda/eGSN2/ssqsa-1/eGDNGenerator/../TDDTestCode/ecst/test/Sum1.java_eCST_V1570845703000.xml">PACKAGE</data>
+</node>
+<node id="test.Sum1">
+<data key="nt" sourceFileName="/home/smi/Desktop/egdn valjda/eGSN2/ssqsa-1/eGDNGenerator/../TDDTestCode/ecst/test/Sum1.java_eCST_V1570845703000.xml">UNIT</data>
+</node>
+<edge id="e0" source="test.Sum1" target="test.Sum1.sum@int@int#int">
+<data key="lt">CONTAINS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e1" source="test" target="test.Sum1">
+<data key="lt">CONTAINS</data>
+<data key="lw">1</data>
+</edge>
+</graph>
+</graphml>

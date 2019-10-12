@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml>
+<graph id="G" edgedefault="directed">
+<key id="nt" for="node" attr.name="nodeType" attr.type="string"/>
+<key id="lt" for="edge" attr.name="linkType" attr.type="string"/>
+<key id="lw" for="edge" attr.name="linkWeight" attr.type="integer"/>
+<node id="test">
+<data key="nt" sourceFileName="/home/smi/Desktop/egdn valjda/eGSN2/ssqsa-1/eGDNGenerator/../TDDTestCode/ecst/test/M_changed1.java_eCST_V1570846208000.xml">PACKAGE</data>
+</node>
+<node id="test.M_changed1.calc3@int#int">
+<data key="nt" sourceFileName="/home/smi/Desktop/egdn valjda/eGSN2/ssqsa-1/eGDNGenerator/../TDDTestCode/ecst/test/M_changed1.java_eCST_V1570846208000.xml">FUNCTION</data>
+<!--number of arguments = 1 -->
+</node>
+<node id="test.M_changed1.calc2@int#int">
+<data key="nt" sourceFileName="/home/smi/Desktop/egdn valjda/eGSN2/ssqsa-1/eGDNGenerator/../TDDTestCode/ecst/test/M_changed1.java_eCST_V1570846208000.xml">FUNCTION</data>
+<!--number of arguments = 1 -->
+</node>
+<node id="test.M_changed1.calc1@int#int">
+<data key="nt" sourceFileName="/home/smi/Desktop/egdn valjda/eGSN2/ssqsa-1/eGDNGenerator/../TDDTestCode/ecst/test/M_changed1.java_eCST_V1570846208000.xml">FUNCTION</data>
+<!--number of arguments = 1 -->
+</node>
+<node id="test.M_changed1.g@int#int">
+<data key="nt" sourceFileName="/home/smi/Desktop/egdn valjda/eGSN2/ssqsa-1/eGDNGenerator/../TDDTestCode/ecst/test/M_changed1.java_eCST_V1570846208000.xml">FUNCTION</data>
+<!--number of arguments = 1 -->
+</node>
+<node id="test.M_changed1">
+<data key="nt" sourceFileName="/home/smi/Desktop/egdn valjda/eGSN2/ssqsa-1/eGDNGenerator/../TDDTestCode/ecst/test/M_changed1.java_eCST_V1570846208000.xml">UNIT</data>
+</node>
+<node id="test.M_changed1.h@int#int">
+<data key="nt" sourceFileName="/home/smi/Desktop/egdn valjda/eGSN2/ssqsa-1/eGDNGenerator/../TDDTestCode/ecst/test/M_changed1.java_eCST_V1570846208000.xml">FUNCTION</data>
+<!--number of arguments = 1 -->
+</node>
+<node id="test.M_changed1.f@int#int">
+<data key="nt" sourceFileName="/home/smi/Desktop/egdn valjda/eGSN2/ssqsa-1/eGDNGenerator/../TDDTestCode/ecst/test/M_changed1.java_eCST_V1570846208000.xml">FUNCTION</data>
+<!--number of arguments = 1 -->
+</node>
+<edge id="e0" source="test.M_changed1" target="test.M_changed1.h@int#int">
+<data key="lt">CONTAINS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e1" source="test.M_changed1.calc2@int#int" target="test.M_changed1.g@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e2" source="test.M_changed1.calc1@int#int" target="test.M_changed1.f@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e3" source="test.M_changed1.f@int#int" target="test.M_changed1.f@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e4" source="test.M_changed1.g@int#int" target="test.M_changed1.h@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e5" source="test.M_changed1.f@int#int" target="test.M_changed1.calc1@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e6" source="test.M_changed1.calc3@int#int" target="test.M_changed1.h@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e7" source="test.M_changed1.f@int#int" target="test.M_changed1.g@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e8" source="test.M_changed1" target="test.M_changed1.f@int#int">
+<data key="lt">CONTAINS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e9" source="test" target="test.M_changed1">
+<data key="lt">CONTAINS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e10" source="test.M_changed1.h@int#int" target="test.M_changed1.f@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e11" source="test.M_changed1" target="test.M_changed1.g@int#int">
+<data key="lt">CONTAINS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e12" source="test.M_changed1.g@int#int" target="test.M_changed1.calc1@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e13" source="test.M_changed1.calc2@int#int" target="test.M_changed1.f@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e14" source="test.M_changed1" target="test.M_changed1.calc1@int#int">
+<data key="lt">CONTAINS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e15" source="test.M_changed1" target="test.M_changed1.calc3@int#int">
+<data key="lt">CONTAINS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e16" source="test.M_changed1.h@int#int" target="test.M_changed1.h@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e17" source="test.M_changed1.g@int#int" target="test.M_changed1.g@int#int">
+<data key="lt">CALLS</data>
+<data key="lw">1</data>
+</edge>
+<edge id="e18" source="test.M_changed1" target="test.M_changed1.calc2@int#int">
+<data key="lt">CONTAINS</data>
+<data key="lw">1</data>
+</edge>
+</graph>
+</graphml>
