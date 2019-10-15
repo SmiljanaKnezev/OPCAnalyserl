@@ -1,4 +1,4 @@
-package papter_tests;
+package tests;
 
 public class Sum3 {
 

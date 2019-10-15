@@ -1,4 +1,4 @@
-package oldtests;
+package tests;
 
 public class M {
 
@@ -23,7 +23,6 @@ public class M {
 			return h(a);
 		}
 	}
-
 
 	public int h(int num) {
 		if (num == 0) {

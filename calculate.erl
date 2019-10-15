@@ -1,7 +1,7 @@
 -module(calculate).
 -include_lib("xmerl/include/xmerl.hrl").
 -export([clean_elem/1, cc/2, get_all_function_calls/1,  get_functions_called/2,
-icc/3,icc_helper/4, opc/3, opc2/3, get_chains/2, lor/3, has_recursive_elem/1]).
+icc/3,icc_helper/4, opc/3, get_chains/2, lor/3, has_recursive_elem/1]).
 
 
 show_elem(Infilename) ->
